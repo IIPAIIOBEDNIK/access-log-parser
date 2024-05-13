@@ -14,7 +14,7 @@ public class Main {
             boolean isDirectory = file.isDirectory();
 
             if (fileExist == false && isDirectory == false){
-                System.out.println("Файл отсутствует и путь ведет к директории");
+                System.out.println("Файл отсутствует или путь ведет к директории");
                 continue;
             } else {
                 System.out.println("Путь указан верно");
